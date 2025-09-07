@@ -47,22 +47,30 @@ dotnet run
 The API will be available at https://localhost:7001
 
 3. Frontend Setup
+
 Navigate to the frontend project:
 
 cd ams-frontend
+
 Install dependencies:
 
 npm install
+
 Run the development server:
 
 npm start
+
 The frontend will be available at http://localhost:4200
 
 Default Credentials
+
 The system comes with a default admin user:
 
 Username: admin
+
 Password: Admin123!
+
+
 API Endpoints
 
 Authentication
