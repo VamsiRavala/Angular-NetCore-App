@@ -67,23 +67,40 @@ API Endpoints
 
 Authentication
 POST /api/auth/login - User login
+
 Users (Admin only)
+
 GET /api/users - Get all users
+
 GET /api/users/{id} - Get user by ID
+
 POST /api/users - Create new user
+
 PUT /api/users/{id} - Update user
+
 DELETE /api/users/{id} - Delete user
 
+
 Assets
+
 GET /api/assets - Get all assets (with optional filtering)
+
 GET /api/assets/{id} - Get asset by ID
+
 POST /api/assets - Create new asset
+
 PUT /api/assets/{id} - Update asset
+
 DELETE /api/assets/{id} - Delete asset
+
 POST /api/assets/{id}/assign - Assign asset to user
+
 POST /api/assets/{id}/unassign - Unassign asset
+
 GET /api/assets/categories - Get asset categories
+
 GET /api/assets/locations - Get asset locations
+
 
 Database Schema
 
