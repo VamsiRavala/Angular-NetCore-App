@@ -64,6 +64,7 @@ The system comes with a default admin user:
 Username: admin
 Password: Admin123!
 API Endpoints
+
 Authentication
 POST /api/auth/login - User login
 Users (Admin only)
@@ -72,6 +73,7 @@ GET /api/users/{id} - Get user by ID
 POST /api/users - Create new user
 PUT /api/users/{id} - Update user
 DELETE /api/users/{id} - Delete user
+
 Assets
 GET /api/assets - Get all assets (with optional filtering)
 GET /api/assets/{id} - Get asset by ID
@@ -82,7 +84,9 @@ POST /api/assets/{id}/assign - Assign asset to user
 POST /api/assets/{id}/unassign - Unassign asset
 GET /api/assets/categories - Get asset categories
 GET /api/assets/locations - Get asset locations
+
 Database Schema
+
 Users
 User authentication and profile information
 Role-based access control (Admin, Manager, User)
@@ -99,11 +103,14 @@ MaintenanceRecords
 Scheduled and completed maintenance
 Cost tracking
 Maintenance type classification
+
 Development
 Adding New Features
 Backend: Add models, DTOs, services, and controllers
 Frontend: Add components, services, and routing
 Database: Create migrations for schema changes
+
+
 Code Structure
 AMS/
 ├── AMS.Api/                 # Backend API
@@ -123,15 +130,20 @@ AMS/
 │   │   │   └── guards/     # Route guards
 │   │   └── environments/   # Environment configuration
 └── README.md
+
+
 Deployment
+
 Backend Deployment
 Build the application: dotnet publish -c Release
 Deploy to your hosting platform (Azure, AWS, etc.)
 Configure connection strings and environment variables
+
 Frontend Deployment
 Build the application: ng build --configuration production
 Deploy the dist folder to your web server
 Update the API URL in environment configuration
+
 Contributing
 Fork the repository
 Create a feature branch
