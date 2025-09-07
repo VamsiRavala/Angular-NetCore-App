@@ -111,27 +111,6 @@ Frontend: Add components, services, and routing
 Database: Create migrations for schema changes
 
 
-Code Structure
-AMS/
-├── AMS.Api/                 # Backend API
-│   ├── Controllers/         # API endpoints
-│   ├── Data/               # Database context
-│   ├── DTOs/               # Data transfer objects
-│   ├── Models/             # Entity models
-│   ├── Services/           # Business logic
-│   └── Mapping/            # AutoMapper profiles
-├── ams-frontend/           # Frontend application
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── components/ # Reusable components
-│   │   │   ├── models/     # TypeScript interfaces
-│   │   │   ├── pages/      # Page components
-│   │   │   ├── services/   # API services
-│   │   │   └── guards/     # Route guards
-│   │   └── environments/   # Environment configuration
-└── README.md
-
-
 Deployment
 
 Backend Deployment
